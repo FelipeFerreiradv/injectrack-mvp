@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "entryPoint": "./index.js",
+    "name": "InjecTrack",
+    "slug": "injectrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": null,
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": null,
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.injectrack.app" },
+    "android": {
+      "adaptiveIcon": { "foregroundImage": null, "backgroundColor": "#ffffff" },
+      "package": "com.injectrack.app"
+    },
+    "web": {
+      "favicon": "./node_modules/expo/favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
